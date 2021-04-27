@@ -2,51 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&family=EB+Garamond:wght@700&display=swap" rel="stylesheet">
+    <title>Blog</title>
 </head>
 <body>
-    <header class="header-container">
-        <nav class="nav-header">
-            <ul class="menu">
-                <li><a class="item-inicio" href="#inicio">Inicio</a></li>
-                <li><a class="item-about" href="#perfil">Quién soy</a></li>
-                <li><a class="item-re" href="#redes-info">Redes</a></li>
-            </ul>
+    <header>
+        <nav class="nav-main">
+            <div class="left-align_container">
+                <h4>Cristhian Pérez</h4>
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-align_container">
+                <a class="twiter" href="#"></a>
+                <a class="github" href="#"></a>
+                <a class="instagram" href="#"></a>
+            </div>
         </nav>
     </header>
-    <main class="main-container" id="inicio">
-        <section class="seciton-container inicio">
-            <h1>Página hecha con <span id="html">HTML</span> y <span id="css" >CSS</span></h1>
-        </section>
-        <div id="perfil"><hr class="linea"></div>
-        <section class="perfil-container" >
-            <div class="target-container">
-                <div class="title-target"><p id="info">¿Quién soy?</p></div>
-                <img class="foto-perfil" src="./img/foto.jpg" alt="perfil">
-                <p class="name"><strong>Cristhian Andrés Pérez</strong></p>
-                <p class="info-target"><span>Edad: </span>18 años</p>
-                <p class="info-target"><span>Nacionalidad: </span>Colombiano</p>
-                <p class="info-target"><span>Ocupación: </span>Estudiante de desarrollo web</p>
-                <p class="info-target"><span>Sobre mi: </span>Aparte de estudiar, me gusta escuchar musica, jugar video juegos diario y pasar el rato en redes sociales. Salgo muy poco, estoy agusto en mi habitación con mi computadora. De vez en cuando saco a mi perro, se llama Jack es genial!</p>
+    <main>
+        <section class="main-title_container">
+            <img src="./assets/img/foto.jpg" alt="" width="98px" height="100px">
+            <h2>Hola.<br> Mi nombre es Cristhian.</h2>
+            <hr id="line-start">
+            <p>Soy un diseñador de UI y productos digitales: creo experiencias digitales que son intuitivas   para personas reales y hago que los procesos complejos sean fáciles de usar.<br>
+            <br>
+            En este momento, soy estudiante de platzi, Allí nos enseñan todas las plataformas digitales en una gran cantidad de marcas, acompañado de una gran comunidad, ingeniería de interfaz de usuario, accesibilidad y experiencia del cliente. Tengo la suerte de ser parte de una gran comunidad de diseñadores, escritores, ingenieros, administradores de proyectos y especialistas en datos, entre otros, probando, iterando y optimizando nuestras plataformas y productos para aprender más.<br>
+            <br>
+            Actualmente trabajo en mini proyectos para ir mejorando como diseñador, puedes encontrarme en Twitter y, a veces, también en GitHub. Tengo un instagram por si quieres pasarte por allí.</p>
+            <div class="main-title__button">
+                <span class="icon-chulo"></span><span>Available for work and general design goodness – <u>say hello</u></span>
             </div>
         </section>
-        </main>
-        <footer id="redes-info">
-            <div class="logos-redes"  >
-                <a href="https://twitter.com/cristhiaupr" target="_blank"><img id="twiter-logo" src="./img/twitter.png" alt="twiter"></a>
-                <p><a href="#" target="_blank">Twiter</a></p>
-            </div>
-            <div class="logos-redes" >
-                <a href="https://www.instagram.com/ilikegoatt" target="_blank"><img id="instgram-logo" src="./img/logotipo-de-instagram.png" alt="instagram"></a>
-                <p><a href="#" target="_blank">Instagram</a></p>
-            </div>
-            <div class="logos-redes" >
-                <a href="https://github.com/ilikegoat" target="_blank"><img id="github-logo" src="./img/github.png" alt="github"></a>
-                <p><a href="https://github.com/ilikegoat" target="_blank">GitHub</a></p>
-            </div>
-        </footer>
-    
+        <section >
+            <hr>
+            <h2>Title</h2>
+        </section>
+    </main>
 </body>
 </html>
